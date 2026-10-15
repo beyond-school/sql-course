@@ -1,3 +1,6 @@
+-- SQLite checks foreign keys only after this line (run it once per connection)
+PRAGMA foreign_keys = ON;
+
 -- Beyond School · SQL Part 9: Database Design
 -- Open sqliteonline.com (SQLite), db-fiddle.com (SQLite) or sqlime.org, paste the SETUP and Run, then run each query.
 
